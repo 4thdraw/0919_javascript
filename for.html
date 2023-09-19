@@ -1,0 +1,12 @@
+<ul id="gugudan">
+    2단출력하려면 for문써야겠다
+</ul>
+<script>
+    var gugudan = document.getElementById("gugudan");
+    var gugu = "";
+    var dan = 2;
+    for(var i = 1; i < 10; i++){
+       gugu += `<li>${dan}X${i}=${i*dan}</li>`
+    }
+    gugudan.innerHTML = gugu;
+</script>
